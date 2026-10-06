@@ -20,7 +20,7 @@ int main()
     cout << fixed;
     cout << "----------------------" << endl;
     cout << "|" << setw(5) << "x" << "   |"
-         << setw(10) << "y" << " |" << endl;
+         << setw(7) << "y" << "    |" << endl;
     cout << "----------------------" << endl;
 
     x = xp;
