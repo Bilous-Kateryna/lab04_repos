@@ -19,9 +19,10 @@ int main()
 
     cout << fixed;
     cout << "----------------------" << endl;
-    cout << "|" << setw(5) << "x" << "   |"
-         << setw(7) << "y" << "    |" << endl;
+    cout << "|" << setw(5) << "x" << "    |"
+         << setw(6) << "y" << "    |" << endl;
     cout << "----------------------" << endl;
+
 
     x = xp;
     while (x <= xk)
@@ -36,8 +37,8 @@ int main()
                 B = sqrt(1 + sqrt(x));
         y = A - B;
 
-        cout << "|" << setw(7) << setprecision(2) << x << " |"
-             << setw(10) << setprecision(3) << y << " |" << endl;
+        cout << "|" << setw(7) << setprecision(2) << x << "  |"
+             << setw(8) << setprecision(3) << y << "  |" << endl;
         x += dx;
     }
     cout << "----------------------" << endl;

@@ -21,8 +21,8 @@ int main()
 
     cout << fixed;
     cout << "----------------------" << endl;
-    cout << "|" << setw(5) << "x" << "   |"
-         << setw(7) << "F" << "    |" << endl;
+    cout << "|" << setw(5) << "x" << "    |"
+         << setw(6) << "F" << "    |" << endl;
     cout << "----------------------" << endl;
 
     x = xp;
@@ -36,8 +36,8 @@ int main()
             else
                 F = (10 * x) / (c - 4);
 
-        cout << "|" << setw(7) << setprecision(2) << x << " |"
-             << setw(10) << setprecision(3) << F << " |" << endl;
+        cout << "|" << setw(7) << setprecision(2) << x << "  |"
+             << setw(8) << setprecision(3) << F << "  |" << endl;
         x += dx;
     }
     cout << "----------------------" << endl;
